@@ -1,14 +1,13 @@
 cask "lan-line" do
-  version "0.9.0-beta.5"
-  sha256 "3012228cc5f7ec79260f151a1213d4c37d544545d5df3ba66759e7b995c75217"
+  version "0.9.0-beta.6"
+  sha256 "e3f8c4275e97fe1ec0ddd907c3a2b465cde3f4ae0a7a8340cf4e665e080cd173"
 
   url "https://github.com/averywrobinson/lan-line/releases/download/v#{version}/Lan-Line-#{version}-mac.dmg"
   name "Lan-Line"
   desc "Pinned window for dropping files, screenshots and text between computers on a LAN"
   homepage "https://averywrobinson.com/lan-line/"
 
-  depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :ventura"
 
   app "Lan-Line.app"
 
