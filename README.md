@@ -1,6 +1,6 @@
 # averywrobinson/homebrew-tap
 
-Homebrew casks for [Lan-Line](https://lan-line.averywrobinson.com): drop here, grab there.
+Homebrew casks for [Lan-Line](https://averywrobinson.com/lan-line/): drop here, grab there.
 
 ```bash
 brew install --cask averywrobinson/tap/lan-line

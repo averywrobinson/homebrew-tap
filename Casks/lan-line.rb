@@ -5,7 +5,7 @@ cask "lan-line" do
   url "https://github.com/averywrobinson/lan-line/releases/download/v#{version}/Lan-Line-#{version}-mac.dmg"
   name "Lan-Line"
   desc "Pinned window for dropping files, screenshots and text between computers on a LAN"
-  homepage "https://lan-line.averywrobinson.com/"
+  homepage "https://averywrobinson.com/lan-line/"
 
   depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
