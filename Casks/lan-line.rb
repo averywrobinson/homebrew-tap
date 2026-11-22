@@ -7,7 +7,7 @@ cask "lan-line" do
   desc "Pinned window for dropping files, screenshots and text between computers on a LAN"
   homepage "https://averywrobinson.com/lan-line/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Lan-Line.app"
 
