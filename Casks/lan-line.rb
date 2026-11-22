@@ -1,6 +1,6 @@
 cask "lan-line" do
-  version "0.9.0-beta.7"
-  sha256 "f144abb46e70d8fd0817bf5a90bc46f0600afe857164455df7dbb61b40f95e00"
+  version "0.9.0-beta.8"
+  sha256 "61a82cd0daf06666ae0453f5f113303e2fa6751d662e806115892be9751ab01b"
 
   url "https://github.com/averywrobinson/lan-line/releases/download/v#{version}/Lan-Line-#{version}-mac.dmg"
   name "Lan-Line"
